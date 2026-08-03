@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cauê Pereira da Cunha — Desenvolvedor Front-End</title>
+<meta name="description" content="Portfólio de Cauê Pereira da Cunha, desenvolvedor front-end em busca da primeira oportunidade na área.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <div class="nav__inner">
+      <div class="nav__brand"><span class="dot"></span> cauê@portfolio</div>
+      <div class="nav__links">
+        <a href="#sobre">sobre</a>
+        <a href="#projetos">projetos</a>
+        <a href="#contato">contato</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="wrap hero__grid">
+      <div>
+        <div class="hero__eyebrow">DISPONÍVEL PARA OPORTUNIDADES</div>
+        <h1>Cauê Pereira<br>da Cunha<span class="accent">.</span></h1>
+        <p class="lead">
+          Desenvolvedor front-end construindo interfaces com HTML, CSS e JavaScript.
+          Há um ano me dedicando à área e em busca da minha primeira oportunidade profissional.
+        </p>
+        <div class="hero__actions">
+          <!-- TODO: confira se os links abaixo (id="link-github", id="link-linkedin") estão corretos.
+               Eles são preenchidos automaticamente pelo CONFIG lá no <script> no fim da página. -->
+          <a class="btn btn--primary" id="link-github" href="#" target="_blank" rel="noopener">Ver no GitHub</a>
+          <a class="btn btn--ghost" id="link-linkedin" href="#" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="editor">
+        <div class="editor__titlebar">
+          <span class="editor__dot editor__dot--r"></span>
+          <span class="editor__dot editor__dot--y"></span>
+          <span class="editor__dot editor__dot--g"></span>
+        </div>
+        <div class="editor__tabs">
+          <button class="editor__tab is-active" data-tab="html">index.html</button>
+          <button class="editor__tab" data-tab="css">style.css</button>
+          <button class="editor__tab" data-tab="js">script.js</button>
+        </div>
+        <div class="editor__body">
+          <div class="editor__pane is-active" data-pane="html">
+            <div class="code-line"><span class="ln">1</span><span class="code"><span class="tk-com">&lt;!-- <span id="typed-comment"></span><span class="typed-cursor"></span> --&gt;</span></span></div>
+            <div class="code-line"><span class="ln">2</span><span class="code"><span class="tk-punct">&lt;</span><span class="tk-tag">div</span> <span class="tk-attr">class</span><span class="tk-punct">=</span><span class="tk-str">"dev"</span><span class="tk-punct">&gt;</span></span></div>
+            <div class="code-line"><span class="ln">3</span><span class="code">  <span class="tk-punct">&lt;</span><span class="tk-tag">h1</span><span class="tk-punct">&gt;</span>Cauê Pereira da Cunha<span class="tk-punct">&lt;/</span><span class="tk-tag">h1</span><span class="tk-punct">&gt;</span></span></div>
+            <div class="code-line"><span class="ln">4</span><span class="code">  <span class="tk-punct">&lt;</span><span class="tk-tag">p</span><span class="tk-punct">&gt;</span>Front-end · HTML/CSS/JS<span class="tk-punct">&lt;/</span><span class="tk-tag">p</span><span class="tk-punct">&gt;</span></span></div>
+            <div class="code-line"><span class="ln">5</span><span class="code">  <span class="tk-punct">&lt;</span><span class="tk-tag">p</span><span class="tk-punct">&gt;</span>Buscando 1ª oportunidade<span class="tk-punct">&lt;/</span><span class="tk-tag">p</span><span class="tk-punct">&gt;</span></span></div>
+            <div class="code-line"><span class="ln">6</span><span class="code"><span class="tk-punct">&lt;/</span><span class="tk-tag">div</span><span class="tk-punct">&gt;</span></span></div>
+          </div>
+          <div class="editor__pane" data-pane="css">
+            <div class="code-line"><span class="ln">1</span><span class="code"><span class="tk-sel">.dev</span> <span class="tk-punct">{</span></span></div>
+            <div class="code-line"><span class="ln">2</span><span class="code">  <span class="tk-prop">foco</span><span class="tk-punct">:</span> <span class="tk-val">html</span>, <span class="tk-val">css</span>, <span class="tk-val">js</span><span class="tk-punct">;</span></span></div>
+            <div class="code-line"><span class="ln">3</span><span class="code">  <span class="tk-prop">tempo-de-estudo</span><span class="tk-punct">:</span> <span class="tk-val">1 ano</span><span class="tk-punct">;</span></span></div>
+            <div class="code-line"><span class="ln">4</span><span class="code">  <span class="tk-prop">disponibilidade</span><span class="tk-punct">:</span> <span class="tk-val">imediata</span><span class="tk-punct">;</span></span></div>
+            <div class="code-line"><span class="ln">5</span><span class="code">  <span class="tk-prop">vontade-de-aprender</span><span class="tk-punct">:</span> <span class="tk-val">100%</span><span class="tk-punct">;</span></span></div>
+            <div class="code-line"><span class="ln">6</span><span class="code"><span class="tk-punct">}</span></span></div>
+          </div>
+          <div class="editor__pane" data-pane="js">
+            <div class="code-line"><span class="ln">1</span><span class="code"><span class="tk-kw">function</span> <span class="tk-fn">contratar</span><span class="tk-punct">(</span><span class="tk-attr">caue</span><span class="tk-punct">)</span> <span class="tk-punct">{</span></span></div>
+            <div class="code-line"><span class="ln">2</span><span class="code">  <span class="tk-kw">return</span> <span class="tk-str">"melhor decisão do time 🚀"</span><span class="tk-punct">;</span></span></div>
+            <div class="code-line"><span class="ln">3</span><span class="code"><span class="tk-punct">}</span></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="sobre">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="section__num">01</span>
+        <h2 class="section__title">sobre-mim.md</h2>
+      </div>
+      <div class="about__grid">
+        <div class="about">
+          <!-- TODO: ajuste/expanda essa bio como quiser. Fale de como começou a estudar,
+               o que mais gosta de construir e o que procura numa vaga. -->
+          <p>
+            Sou o <strong>Cauê Pereira da Cunha</strong>, desenvolvedor front-end.
+            Estudo e construo projetos com <strong>HTML, CSS e JavaScript</strong> há cerca de um ano,
+            e agora estou em busca da minha <strong>primeira oportunidade</strong> na área de tecnologia.
+          </p>
+          <p>
+            Gosto de transformar interfaces em algo funcional e bem construído, prestando atenção
+            em detalhes de layout, responsividade e experiência do usuário.
+            Estou aberto a estágios, vagas júnior e projetos que me permitam crescer como profissional.
+          </p>
+        </div>
+        <div class="stack-list">
+          <!-- TODO: adicione/remova tecnologias que você domina -->
+          <span class="stack-chip">HTML5</span>
+          <span class="stack-chip">CSS3</span>
+          <span class="stack-chip">JavaScript</span>
+          <span class="stack-chip">Git</span>
+          <span class="stack-chip">GitHub</span>
+          <span class="stack-chip">Responsivo</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <div class="wrap">
+      <div class="section__head">
+        <span class="section__num">02</span>
+        <h2 class="section__title">projetos/</h2>
+      </div>
+      <!-- Os cards de projeto são gerados automaticamente a partir da lista PROJECTS no <script> no fim da página.
+           Você NÃO precisa editar este bloco: basta editar o array PROJECTS lá embaixo. -->
+      <div class="projects__grid" id="projects-grid"></div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="wrap contact__inner">
+      <div class="contact">
+        <h2>Vamos conversar?</h2>
+        <p>Estou em busca da minha primeira oportunidade na área de desenvolvimento front-end.
+           Me chama em qualquer um dos canais ao lado — respondo rápido.</p>
+      </div>
+      <div class="contact-links">
+        <!-- TODO: os links/valores abaixo vêm do CONFIG no <script>. Só edite lá. -->
+        <a class="contact-link" id="link-github-2" href="#" target="_blank" rel="noopener">
+          <span class="icon">GH</span> GitHub
+        </a>
+        <a class="contact-link" id="link-linkedin-2" href="#" target="_blank" rel="noopener">
+          <span class="icon">IN</span> LinkedIn
+        </a>
+        <a class="contact-link" id="link-email" href="#">
+          <span class="icon">@</span> E-mail
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      // feito com HTML, CSS e JS — Cauê Pereira da Cunha © <span id="year"></span>
+    </div>
+  </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
